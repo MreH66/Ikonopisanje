@@ -1,18 +1,17 @@
-import content from '../../content.json'
-import styles from './Footer.module.css'
+import content from "../../content.json";
+import styles from "./Footer.module.css";
 
 export default function Footer() {
-  const { name, tagline, socials } = content.footer
-  const year = new Date().getFullYear()
+  const { name, socials } = content.footer;
+  const year = new Date().getFullYear();
 
   return (
     <footer className={styles.footer}>
       <div className={styles.cross}>✝</div>
       <p className={styles.name}>{name}</p>
-      <p className={styles.tagline}>{tagline}</p>
 
       <div className={styles.socials}>
-        {socials.map(s => (
+        {socials.map((s) => (
           <a
             key={s.label}
             href={s.url}
@@ -29,5 +28,5 @@ export default function Footer() {
         © {year} {name} · Sve ikone pisane su rukom
       </p>
     </footer>
-  )
+  );
 }
