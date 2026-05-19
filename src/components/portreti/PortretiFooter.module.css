@@ -1,0 +1,41 @@
+.footer {
+  background: #1a1a1a;
+  color: #fff;
+  text-align: center;
+  padding: 3rem 2rem;
+  border-top: 1px solid #2a2a2a;
+}
+
+.name {
+  font-family: var(--font-display);
+  font-size: 14px;
+  letter-spacing: 0.15em;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.social {
+  font-family: var(--font-display);
+  font-size: 10px;
+  letter-spacing: 0.25em;
+  color: #777;
+  text-transform: uppercase;
+  transition: color 0.2s;
+}
+
+.social:hover { color: #fff; }
+
+.copy {
+  font-family: var(--font-display);
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  color: #444;
+  text-transform: uppercase;
+}

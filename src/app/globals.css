@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Cinzel:wght@400;600&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --gold: #C9A84C;
+  --gold-light: #E8D5A0;
+  --gold-pale: #F5EDD0;
+  --dark: #1A1208;
+  --warm-black: #0E0A04;
+  --parchment: #F7F0DC;
+  --parchment-dark: #EDE3C4;
+  --text-main: #2C1F08;
+  --text-muted: #6B5533;
+  --border-gold: rgba(201, 168, 76, 0.35);
+
+  --font-display: 'Cinzel', Georgia, serif;
+  --font-body: 'Cormorant Garamond', Georgia, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 17px;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--parchment);
+  color: var(--text-main);
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ── Shared layout ── */
+.section-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.section-label {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.35em;
+  color: var(--dark);
+  text-transform: uppercase;
+  margin-bottom: 0.6rem;
+}
+
+.section-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 400;
+  color: var(--text-main);
+  margin-bottom: 0.75rem;
+  position: relative;
+  display: inline-block;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 1px;
+  background: var(--gold);
+  margin-top: 0.75rem;
+}
+
+.gold-divider {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 auto 3rem;
+  max-width: 400px;
+}
+
+.gold-divider::before,
+.gold-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold));
+}
+
+.gold-divider::after {
+  background: linear-gradient(90deg, var(--gold), transparent);
+}
+
+.gold-divider span {
+  color: var(--gold);
+  font-size: 14px;
+}

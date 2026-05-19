@@ -1,0 +1,58 @@
+.section {
+  padding: 6rem 0;
+  background: var(--warm-black);
+}
+
+.section :global(.section-label) { color: var(--gold); }
+.section :global(.section-title) { color: var(--gold-light); }
+.section :global(.section-title)::after { background: var(--gold); }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 4rem;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.frame {
+  border: 1px solid var(--border-gold);
+  padding: 12px;
+  position: relative;
+}
+
+.frame::before {
+  content: '';
+  position: absolute;
+  inset: 5px;
+  border: 1px solid rgba(201, 168, 76, 0.2);
+  pointer-events: none;
+}
+
+.photoWrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  background: var(--dark);
+}
+
+.photo { object-fit: cover; }
+
+.lead {
+  color: var(--gold-light);
+  font-size: 1.15rem;
+  font-style: italic;
+  line-height: 1.85;
+  margin-bottom: 1.2rem;
+}
+
+.body {
+  color: rgba(232, 213, 160, 0.72);
+  font-size: 1.05rem;
+  line-height: 1.85;
+  margin-bottom: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .grid { grid-template-columns: 1fr; gap: 2.5rem; }
+}

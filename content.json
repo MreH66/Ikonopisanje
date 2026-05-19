@@ -1,0 +1,79 @@
+{
+  "site": {
+    "title": "Srđan Andrijević Lazić",
+    "description": "Ikonopisanje i portreti — ručni radovi u vizantijskoj tradiciji i realističkom stilu"
+  },
+
+  "home": {
+    "hero": {
+      "greeting": "Dobrodošli",
+      "name": "Srđan Andrijević Lazić",
+      "tagline": "Umetnik koji slika dušu — bilo da je sveta ili ljudska."
+    },
+    "about": {
+      "photo": "/images/about.jpg",
+      "paragraphs": [
+        "Srđan Andrijević Lazić je umetnik iz Novog Sada čiji rad obuhvata dve različite, ali jednako posvećene discipline — pisanje ikona u vizantijskoj tradiciji i realističko portretisanje.",
+        "Više od dvadeset godina posvećen je umetničkom radu, uvek tragajući za onim što je suštinsko u liku koji slika — bilo da je to svetački lik pisan zlatom na dasci, ili portret koji čuva nečiji pogled za večnost.",
+        "Svaki rad nastaje sa pažnjom, strpljenjem i dubokim poštovanjem prema materijalu i temi."
+      ]
+    },
+    "contact": {
+      "email": "ikone@example.com",
+      "phone": "+381 60 000 0000"
+    }
+  },
+
+  "ikonopisanje": {
+    "meta": {
+      "title": "Ikonopisanje — Srđan Andrijević Lazić",
+      "description": "Ručno pisanje ikona u vizantijskoj tradiciji"
+    },
+    "hero": {
+      "title": "Ikonopisanje",
+      "subtitle": "Ručno pisanje ikona",
+      "tagline": "Svaka ikona je molitva, pisana zlatom i verom na drevni način."
+    },
+    "prices": {
+      "intro": "Cene su okvirne i zavise od složenosti kompozicije, formata i upotrebljenih materijala. Za preciznu ponudu slobodno me kontaktirajte.",
+      "items": [
+        { "name": "Mala ikona", "size": "15×20 cm — 20×25 cm", "price": "od 80 €", "note": "Jedan sveti lik, zlatna pozadina" },
+        { "name": "Srednja ikona", "size": "25×35 cm — 30×40 cm", "price": "od 150 €", "note": "Jedan ili dva lika, zlatni i srebrni detalji" },
+        { "name": "Velika ikona", "size": "40×60 cm i više", "price": "od 300 €", "note": "Složene kompozicije, ukrasni okvir po zahtevu" },
+        { "name": "Ikonostas panel", "size": "Dimenzije po dogovoru", "price": "Upit", "note": "Za crkve i kapele — individualna ponuda" },
+        { "name": "Restavracija ikone", "size": "Sve dimenzije", "price": "Upit", "note": "Procena stanja i ponuda na licu mesta" },
+        { "name": "Porodična / slavska ikona", "size": "Po želji", "price": "Upit", "note": "Zaštitnici porodice, slava" }
+      ]
+    }
+  },
+
+  "portreti": {
+    "meta": {
+      "title": "Portreti — Srđan Andrijević Lazić",
+      "description": "Realistični portreti rađeni rukom"
+    },
+    "hero": {
+      "title": "Portreti",
+      "subtitle": "Realistično portretisanje",
+      "tagline": "Portret koji čuva nečiji pogled — za sva vremena."
+    },
+    "prices": {
+      "intro": "Cene zavise od formata, tehnike i složenosti kompozicije. Kontaktirajte me za individualnu ponudu.",
+      "items": [
+        { "name": "Mali portret", "size": "20×30 cm", "price": "od 100 €", "note": "Jedno lice, crno-bela ili u boji" },
+        { "name": "Srednji portret", "size": "30×40 cm — 40×50 cm", "price": "od 200 €", "note": "Jedno ili dva lica, detaljna obrada" },
+        { "name": "Veliki portret", "size": "50×70 cm i više", "price": "od 400 €", "note": "Reprezentativni format, bogata kompozicija" },
+        { "name": "Porodični portret", "size": "Po dogovoru", "price": "Upit", "note": "Više lica, individualna ponuda" },
+        { "name": "Portret po fotografiji", "size": "Po dogovoru", "price": "Upit", "note": "Rađeno prema dostavljenoj fotografiji" }
+      ]
+    }
+  },
+
+  "footer": {
+    "name": "Srđan Andrijević Lazić",
+    "socials": [
+      { "label": "Instagram", "url": "https://instagram.com/ikonopisanje" },
+      { "label": "Facebook",  "url": "https://facebook.com/ikonopisanje"  }
+    ]
+  }
+}
